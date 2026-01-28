@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #0c0c0c;
+  color: #333;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #0c0c0c;
+}
+
+.logo {
+  font-family: 'Komika Axis', cursive;
+  color:#D71920;
+  font-size: 40px;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #0c0c0c;
+  height:40vh;
+}
+
+.hero-text h2 {
+  font-family: 'Pacific', cursive ;
+  font-style:italic;
+  font-size: 54px;
+  color: #d71920;
+  margin-left: 90px;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  font-size: 18px;
+  color:#747373;
+  margin-left: 100px;
+}
+
+.hero-text button {
+  padding: 12px 30px;
+  background-color: #d71920;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 120px;
+}
+
+.hero img {
+  width: 340px;
+  margin-right: 70px;
+}
+
+.flavors {
+  text-align: center;
+  padding: 20px;
+  color:white;
+  height: 20vh;
+  margin-top: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  color:#0c0c0c
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  width: 150px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgb(201, 24, 24);
+}
+
+.about {
+  padding: 50px;
+  text-align: center;
+  color:rgb(101, 100, 100);
+}
+
+footer {
+  background-color: #d71920;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
